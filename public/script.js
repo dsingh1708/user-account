@@ -2,12 +2,12 @@ var app = angular.module('userApp',['ngRoute']);
 app.config(function($routeProvider) {
       $routeProvider
  
-          // route for the home page
+          // route for the login page
           .when('/', {
              templateUrl : 'index.html'
              
          }) 
-         // route for the about page
+         // route for the login success page
          .when('/login', {
              templateUrl : 'login.html'
              // controller  : 'userCtrl',
